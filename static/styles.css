@@ -1,6 +1,6 @@
-html, body {
+html {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #132a1f;
+    background-color: #132a1f !important;
     box-sizing: border-box;
 }
 
