@@ -2,7 +2,15 @@
     box-sizing: border-box;
 }
 
-main {
+html {
+    background-color: black;
+}
+
+body {
+    background-color: #132a1f;
+}
+
+main, footer {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #132a1f;
 }
@@ -66,4 +74,11 @@ img {
     left: 0;
     top: 0;
     position: absolute;
+}
+
+footer {
+    margin: 2rem;
+    color: lightgray;
+    background-color: #132a1f;
+    width: 100%;
 }
