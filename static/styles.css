@@ -1,7 +1,10 @@
 * {
+    box-sizing: border-box;
+}
+
+main {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #132a1f;
-    box-sizing: border-box;
 }
 
 h1:focus {
@@ -11,6 +14,7 @@ h1:focus {
 h1 {
     color: lightgrey;
     text-align: center;
+    padding: 2rem;
 }
 
 a, .btn-link {
@@ -49,4 +53,17 @@ img {
     color: lightgray;
     display: flex;
     font-size: 36px;
+}
+
+.google-map {
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 70%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
 }
