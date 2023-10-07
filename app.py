@@ -6,6 +6,10 @@ app = Flask(__name__)
 def render_index():
     return render_template("index.html")
 
+@app.route("/book")
+def render_booking_page():
+    return render_template("book.html")
+
 with app.test_request_context():
     url_for('static', filename='styles.css')
 
