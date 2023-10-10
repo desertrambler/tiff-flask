@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/56376d9e-0993-49d1-b12a-bc021ea9c43f/resourceGroups/tiff-flask/providers/Microsoft.Web/sites/tiff-flask",
+    "appService.deploySubpath": "."
+}
