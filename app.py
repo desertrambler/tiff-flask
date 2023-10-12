@@ -10,6 +10,10 @@ def render_index():
 def render_booking_page():
     return render_template("book.html")
 
+@app.route("/about_me")
+def render_about_me():
+    return render_template("about_me.html")
+
 with app.test_request_context():
     url_for('static', filename='styles.css')
 

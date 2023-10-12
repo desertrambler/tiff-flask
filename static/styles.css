@@ -98,3 +98,8 @@ footer {
 .square-booking-container {
     height: 100%;
 }
+
+.resize {
+    width: 500px;
+    height: auto;
+}
