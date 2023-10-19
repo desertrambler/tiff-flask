@@ -100,6 +100,12 @@ footer {
 }
 
 .resize {
-    width: 500px;
+    width: 300px;
     height: auto;
+}
+
+#main-about-me {
+    height: 33rem;
+    vertical-align: middle;
+    text-align: center;
 }
