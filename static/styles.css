@@ -105,7 +105,6 @@ footer {
 }
 
 #main-about-me {
-    height: 33rem;
-    vertical-align: middle;
-    text-align: center;
+    display: flex;
+    height: 100%vh;
 }
