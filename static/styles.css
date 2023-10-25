@@ -44,7 +44,7 @@ p {
 }
 
 #img-row {
-    margin-bottom: 4rem;
+    display: flex;
 }
 
 .lead {
