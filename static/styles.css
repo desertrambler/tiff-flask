@@ -75,6 +75,10 @@ img {
     font-size: 36px;
 }
 
+#hours-section {
+    display: flex;
+}
+
 .google-map {
     padding-bottom: 100%;
     position: relative;
@@ -108,3 +112,9 @@ footer {
     display: flex;
     height: 100%vh;
 }
+
+@media screen and (min-width: 480px) {
+    #hours-and-location-section {
+      display: none;
+    }
+  }
